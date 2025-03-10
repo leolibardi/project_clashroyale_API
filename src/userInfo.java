@@ -46,6 +46,7 @@ public class userInfo {
 
 
 
+
         if (responseUser.statusCode() == 200){
             Account account = gson.fromJson(userJson, Account.class);
             ChestList chestList = gson.fromJson(chestsJason, ChestList.class);
